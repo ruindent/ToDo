@@ -85,6 +85,7 @@ int main()
             break;
         }
         else if (input_option == 'a') {
+            taskCount++;
             std::cout << "Add a new description: ";
             std::cin.clear();
             std::cin.ignore();
